@@ -1,0 +1,72 @@
+.coverpage {
+  overflow: hidden;
+  background: #cccccc;
+}
+
+.coverpage::before {
+  content: "";
+  background: #00aea7;
+  height: calc(50% + 70px);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.wrrp-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrrp-flex div {
+  position: relative;
+  justify-content: center;
+}
+.wrrp-flex.rows {
+  flex-flow: wrap;
+}
+.wrrp-flex.rows div {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+} 
+  .wrrp-flex.rows div span {
+    justify-content: center;
+    flex-flow: row;
+  }
+  .wrrp-flex.rows div span.image {
+    margin-right: 30px;
+  }
+
+.wrrp-flex div.img {
+  width: 300px;
+}
+  .wrrp-flex div.img img {
+    width: 100%;
+  }
+
+.wrrp-flex div.title {
+  color: #fff;
+  width: calc(100% - 340px);
+}
+
+.wrrp-flex div.title p {
+
+}
+
+p {
+  font-size: 60px;
+  line-height: 65px;
+}
+
+p.desc {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+p.title {
+  font-size: 70px;
+  line-height: 65px;
+}
+

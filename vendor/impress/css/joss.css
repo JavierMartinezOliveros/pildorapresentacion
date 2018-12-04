@@ -1,0 +1,52 @@
+.coverpage {
+  overflow: hidden;
+}
+
+.coverpage::before {
+  content: "";
+  background: #00aea7;
+  height: calc(50% + 50px);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.wrrp-flex {
+  background: #cccccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrrp-flex div {
+  position: relative;
+  justify-content: center;
+}
+
+.wrrp-flex div.img {
+  width: 300px;
+}
+  .wrrp-flex div.img img {
+    width: 100%;
+  }
+
+.wrrp-flex div.title {
+  color: #fff;
+  width: calc(100% - 340px);
+}
+
+.wrrp-flex div.title p {
+
+}
+
+p {
+  font-size: 60px;
+  line-height: 65px;
+}
+
+p.title {
+  font-size: 70px;
+  line-height: 75px;
+}
+
